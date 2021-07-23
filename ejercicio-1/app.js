@@ -15,7 +15,7 @@ const mostrarElemento = () => {
   numIteracion++;
 };
 
-//ejemplo de Callback Hell.
+//ejemplo de Callback Hell (Para evitar esto utilizaremos Promise o async/await.).
 const iniciarCallbacks = () => {
   setTimeout(() => {
     agregarElemento("Manzana", mostrarElemento);
